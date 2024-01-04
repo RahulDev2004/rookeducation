@@ -14,9 +14,7 @@ const ContactUs = () => {
                   <h2>Contact For Information</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperiam eaque ipsa
-                  quae abillo inventore veritatis et quasi architecto
+                Have questions or need more details? Feel free to reach out to us! Our dedicated team is here to assist you with any information you require, ensuring a smooth and informed journey on your path to knowledge.
                 </p>
                 <div className="row no-gap mt-50">
                   <div className="col-md-4 col-sm-6">
@@ -65,7 +63,7 @@ const ContactUs = () => {
       </section>
       {/* Contact Info End */}
       {/* Contact Form Start */}
-      <section className="contact-form-area wow fadeInUp delay-0-2s">
+      {/* <section className="contact-form-area wow fadeInUp -mb-1000 delay-0-2s">
         <div className="container">
           <form
             onSubmit={(e) => e.preventDefault()}
@@ -142,10 +140,10 @@ const ContactUs = () => {
             </div>
           </form>
         </div>
-      </section>
+      </section> */}
       {/* Contact Form End */}
       {/* Location Map Area Start */}
-      <div className="contact-page-map">
+      {/* <div className="contact-page-map">
         <div className="our-location">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d136834.1519573059!2d-74.0154445224086!3d40.7260256534837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1639991650837!5m2!1sen!2sbd"
@@ -155,7 +153,7 @@ const ContactUs = () => {
             loading="lazy"
           />
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };

@@ -19,7 +19,7 @@ const Index4 = () => {
                 <img src="assets/images/hero/hero-three-man.png" alt="Hero" />
                 <div className="hero-chart wow fadeInUp delay-0-2s">
                   <img src="assets/images/hero/hero-chart.png" alt="Chart" />
-                  <h5>95% Success Results</h5>
+                  <h5>100% Success Results</h5>
                 </div>
                 <div className="hero-over-text">
                   <div className="about-image-over-item wow fadeInRight delay-0-2s">
@@ -28,7 +28,7 @@ const Index4 = () => {
                   </div>
                   <div className="about-image-over-item wow fadeInLeft delay-0-2s">
                     <img src="assets/images/about/icon2.png" alt="Icon" />
-                    <h5>Quality Video Tutorials</h5>
+                    <h5>Industrial Training</h5>
                   </div>
                 </div>
                 <img
@@ -41,20 +41,19 @@ const Index4 = () => {
             <div className="col-lg-6 align-self-center">
               <div className="hero-content-three pt-10 pb-100 rpt-40">
                 <span className="hero-sub-title mb-10 wow fadeInUp delay-0-2s">
-                  <span>2563+</span> Students
+                  <span>250+</span> Students
                 </span>
                 <h1 className="mb-25 wow fadeInUp delay-0-4s">
-                  We’re Best <span>Online</span> Education Partners University
-                  2022
+                  We’re Best <span>Tech</span> Education Partners
                 </h1>
                 <ul className="list-style-one wow fadeInUp delay-0-6s">
                   <li>Experts Advisors</li>
-                  <li>538+ Courses</li>
+                  <li>Industrial Trainers</li>
                 </ul>
                 <div className="hero-btns mt-10 wow fadeInUp delay-0-8s">
                   <Link href="/contact">
                     <a className="theme-btn mt-10">
-                      Get started <i className="fas fa-arrow-right" />
+                      Contact Us <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
                   <Link href="/course-grid">
@@ -85,7 +84,7 @@ const Index4 = () => {
                 <div className="section-title mb-30">
                   <span className="sub-title-three">Why Learn Us</span>
                   <h2>
-                    Experience to <span>Online</span> Learning Center
+                    Realtime project <span>Training</span> & end-to-end guidance
                   </h2>
                 </div>
               </div>
@@ -93,10 +92,7 @@ const Index4 = () => {
             <div className="col-lg-5">
               <div className="freature-six-right pt-55 rpt-0 wow fadeInUp delay-0-4s">
                 <p>
-                  Sit amet consectetur adipiscing sed eiusmod tempor indunt ut
-                  labore et dolore magna aliquaes ipsum suspendisse ultrice
-                  gravida. Risus commodo viverra maecenas accumsan lacus vel
-                  facilisis dolorem fugiat voluptas nulla pariatur.
+                Facilitate dynamic, real-time project immersion with comprehensive end-to-end guidance, ensuring seamless corporate integration and skill acquisition for optimal professional development
                 </p>
               </div>
             </div>
@@ -113,15 +109,14 @@ const Index4 = () => {
                   </div>
                   <h5>Exclusive Courses</h5>
                   <p>
-                    Sit amet consectetur adiisc elit sed dseiusmod temorse
-                    incididunt labore dolore
+                    Experience a transformative edge with our exclusive courses designed for peak industry proficiency.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -135,15 +130,14 @@ const Index4 = () => {
                   </div>
                   <h5>Creative Advisors</h5>
                   <p>
-                    Sit amet consectetur adiisc elit sed dseiusmod temorse
-                    incididunt labore dolore
+                    Elevate your creative endeavors with our expert creative advisors offering innovative guidance and strategic insights.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -157,15 +151,14 @@ const Index4 = () => {
                   </div>
                   <h5>Certifications</h5>
                   <p>
-                    Sit amet consectetur adiisc elit sed dseiusmod temorse
-                    incididunt labore dolore
+                    Validate your expertise with our industry-recognized certifications, paving the way for accelerated career advancement.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -177,17 +170,16 @@ const Index4 = () => {
                       alt="Icon"
                     />
                   </div>
-                  <h5>Video Tutorials</h5>
+                  <h5>Video Guidance & Materials</h5>
                   <p>
-                    Sit amet consectetur adiisc elit sed dseiusmod temorse
-                    incididunt labore dolore
+                    Access comprehensive video guidance and materials, empowering your learning journey with immersive and dynamic content.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -260,9 +252,9 @@ const Index4 = () => {
               <span
                 className="count-text plus"
                 data-speed={3000}
-                data-stop={256}
+                data-stop={250}
               >
-                <Counter end={256} />
+                <Counter end={250} />
               </span>
               <span>
                 Students
@@ -274,14 +266,14 @@ const Index4 = () => {
               <span
                 className="count-text plus"
                 data-speed={3000}
-                data-stop={2456}
+                data-stop={100}
               >
-                <Counter end={2456} />
+                <Counter end={100} />
               </span>
               <span>
                 Finished
                 <br />
-                Seasons
+                Projects
               </span>
             </div>
             <div className="success-item">
@@ -293,7 +285,7 @@ const Index4 = () => {
                 <Counter end={99.9} />
               </span>
               <span>
-                Saticfaction
+                Success
                 <br />
                 Rate
               </span>
@@ -301,10 +293,10 @@ const Index4 = () => {
             <div className="success-item">
               <span
                 className="count-text plus"
-                data-speed={3000}
-                data-stop={2563}
+                data-speed={1000}
+                data-stop={10}
               >
-                <Counter end={2563} />
+                <Counter end={10} />
               </span>
               <span>
                 Experience
@@ -316,6 +308,137 @@ const Index4 = () => {
         </div>
       </div>
       {/* Counter End */}
+      {/* Event Section Start */}
+      <section className="event-section-three rel z-1 pt-100">
+        <div className="container for-circle">
+          <div className="event-three-inner">
+            <div className="section-title text-center mb-40">
+              <span className="sub-title-three">
+                Events &amp; <span>Programs</span>
+              </span>
+              <h2>Browser Latest Bootcamps & Events</h2>
+            </div>
+            <div className="row">
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-2s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three1.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 15</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Useful VS Code Extensions Front-End Developers
+                      </Link>
+                    </h4>
+                  </div>
+                  <Link href="/contact">
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-4s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three2.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 17</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Roll New Features Without Hurting Loyal Users
+                      </Link>
+                    </h4>
+                  </div>
+                  <Link href="/contact">
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-6s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three3.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 19</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Ethical Design The Practical Getting-Started Guide
+                      </Link>
+                    </h4>
+                  </div>
+                  <Link href="/contact">
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="event-item-three wow fadeInUp delay-0-8s">
+                  <div className="image">
+                    <img
+                      src="assets/images/events/event-three4.jpg"
+                      alt="Event"
+                    />
+                    <span className="date">March 23</span>
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
+                      USA
+                    </span>
+                    <h4>
+                      <Link href="contact">
+                        Universal Principles Of User Experience Design
+                      </Link>
+                    </h4>
+                  </div>
+                  <Link href="/contact">
+                    <a className="details-link">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* <div className="event-more-btn text-center pt-15">
+              <Link href="/blog">
+                <a className="theme-btn style-five">
+                  view more events <i className="fas fa-arrow-right" />
+                </a>
+              </Link>
+            </div> */}
+          </div>
+        </div>
+      </section>
+      {/* Event Section End */}
       {/* Coach Section Start */}
       <section className="coach-section-three bg-lighter rel z-1 pt-180 rpt-150 pb-130 rpb-100">
         <div className="container">
@@ -323,7 +446,7 @@ const Index4 = () => {
             <div className="col-xl-6 col-lg-7 col-md-8">
               <div className="section-title text-center mb-45">
                 <h2>
-                  Best Solutions <span>For Life</span> Coach Solutions
+                  Best tech education <span>For Career</span> Coach Solutions
                 </h2>
               </div>
             </div>
@@ -332,7 +455,7 @@ const Index4 = () => {
             <div className="coach-item-three wow fadeInUp delay-0-2s">
               <div className="image">
                 <img src="assets/images/coachs/course-three1.jpg" alt="Coach" />
-                <div className="price">256</div>
+                <div className="price">250</div>
               </div>
               <div className="content">
                 <ul className="coach-footer">
@@ -422,7 +545,7 @@ const Index4 = () => {
             <div className="coach-item-three wow fadeInUp delay-0-2s">
               <div className="image">
                 <img src="assets/images/coachs/course-three1.jpg" alt="Coach" />
-                <div className="price">256</div>
+                <div className="price">250</div>
               </div>
               <div className="content">
                 <ul className="coach-footer">
@@ -522,7 +645,7 @@ const Index4 = () => {
       </section> */}
       {/* Advertise Area End */}
       {/* Newsletter Section Start */}
-      <section className="newsletter-video-section p-100">
+      {/* <section className="newsletter-video-section p-100">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-xl-10">
@@ -619,7 +742,7 @@ const Index4 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Newsletter Section End */}
       {/* Blog Section Start */}
       {/* <section className="blog-section pt-120 rpt-90 pb-100 rpb-70">

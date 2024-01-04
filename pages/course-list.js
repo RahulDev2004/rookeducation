@@ -15,7 +15,7 @@ const CourseList = () => {
                   <div className="sort-text">
                     Showing <b>85</b> Courses For 505 Course
                   </div>
-                  <ul className="grid-list">
+                  {/* <ul className="grid-list">
                     <li>
                       <a href="#">
                         <i className="fas fa-list-ul" />
@@ -26,8 +26,8 @@ const CourseList = () => {
                         <i className="fas fa-border-all" />
                       </a>
                     </li>
-                  </ul>
-                  <div className="products-dropdown">
+                  </ul> */}
+                  {/* <div className="products-dropdown">
                     <select>
                       <option value="default">Filter by</option>
                       <option value="new" selected="">
@@ -37,7 +37,7 @@ const CourseList = () => {
                       <option value="hight-to-low">High To Low</option>
                       <option value="low-to-high">Low To High</option>
                     </select>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="course-list-inner">
                   <div className="coach-item style-two coach-list wow fadeInUp delay-0-4s">
@@ -409,7 +409,7 @@ const CourseList = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="widget widget-radio wow fadeInUp delay-0-2s">
+                {/* <div className="widget widget-radio wow fadeInUp delay-0-2s">
                   <h4 className="widget-title">Filter By Price</h4>
                   <form
                     onSubmit={(e) => e.preventDefault()}
@@ -567,8 +567,8 @@ const CourseList = () => {
                       <span>(0)</span>
                     </li>
                   </ul>
-                </div>
-              </div>
+                </div>*/}
+              </div> 
             </div>
           </div>
         </div>

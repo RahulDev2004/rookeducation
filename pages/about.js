@@ -21,17 +21,18 @@ const About = () => {
             <div className="col-lg-5">
               <div className="about-page-content wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
-                  <span className="sub-title-two">About Learn Us</span>
-                  <h2>We’re Experience to Online Education Learning Center</h2>
+                  <span className="sub-title-two">About Rook Education</span>
+                  <h2>Bridging Experience to Knowledge</h2>
                 </div>
                 <p>
-                  Sit amet consectetur adipiscing eiusmo tempor indun ut labore
-                  et dolore magna aliquaes suspendisse ultrice gravid commodo
-                  viverra maecenas accusan
+                Welcome to Rook Education, an extension of the esteemed Rook Ecom private lmt. 
+                At Rook, we have built a legacy of delivering top-notch client projects and cutting-edge SaaS solutions. 
+                <br/>Now, we are thrilled to introduce Rook Education, our venture into the realm of online learning. 
+                Rook Education aims to redefine digital education through events, bootcamps, and meticulously curated courses, 
+                we invite you to embark on a transformative learning journey.
                 </p>
                 <b>
-                  Quis autem vel eum rerehenderit quivol uptate velit esse quam
-                  molestiae consequature
+                Join us as we continue to build, innovate, and shape the next generation of tech enthusiasts.
                 </b>
                 <div className="about-btns pt-25">
                   <Link href="/about">
@@ -39,11 +40,11 @@ const About = () => {
                       Learn more <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
-                  <Link href="/faqs">
+                  {/* <Link href="/faqs">
                     <a className="read-more">
                       How it works <i className="fas fa-arrow-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -119,8 +120,7 @@ const About = () => {
                 </div>
                 <h4>Experts Minds</h4>
                 <p>
-                  Sed ut persiciatis omnis natus voluptate accsantie doloreue
-                  laudantium
+                Unleash the power of learning from seasoned professionals.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -136,8 +136,7 @@ const About = () => {
                 </div>
                 <h4>Multiple Courses</h4>
                 <p>
-                  Sed ut persiciatis omnis natus voluptate accsantie doloreue
-                  laudantium
+                Explore a diverse range of meticulously curated courses on diverse interests
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -151,10 +150,9 @@ const About = () => {
                 <div className="icon">
                   <img src="assets/images/features/icon8.png" alt="Icon" />
                 </div>
-                <h4>Hire Quickly</h4>
+                <h4>Bootcamps</h4>
                 <p>
-                  Sed ut persiciatis omnis natus voluptate accsantie doloreue
-                  laudantium
+                Immerse yourself in interactive webinars and intensive Bootcamps.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -168,10 +166,9 @@ const About = () => {
                 <div className="icon">
                   <img src="assets/images/features/icon9.png" alt="Icon" />
                 </div>
-                <h4>Video Tutorials</h4>
+                <h4>Live Classes</h4>
                 <p>
-                  Sed ut persiciatis omnis natus voluptate accsantie doloreue
-                  laudantium
+                Immerse yourself in real-time, interactive Live tutorials.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -191,7 +188,7 @@ const About = () => {
             <div className="col-lg-8">
               <div className="section-title text-center mb-55">
                 <span className="sub-title-two">Meet Our Team</span>
-                <h2>We’ve Thousands Of Experience Team Members</h2>
+                <h2>We’ve Hundreds Of Experience Team Members</h2>
               </div>
             </div>
           </div>
@@ -216,8 +213,8 @@ const About = () => {
                   </div>
                 </div>
                 <div className="member-description">
-                  <h4>David S. Wickman</h4>
-                  <span>Wed Designer</span>
+                  <h4>Rahul B</h4>
+                  <span>Blockchain Developer</span>
                 </div>
               </div>
             </div>
@@ -241,7 +238,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="member-description">
-                  <h4>Walter J. Drake</h4>
+                  <h4>Sabari H</h4>
                   <span>Wed Developer</span>
                 </div>
               </div>
@@ -266,8 +263,8 @@ const About = () => {
                   </div>
                 </div>
                 <div className="member-description">
-                  <h4>Steven J. Voorhees</h4>
-                  <span>Wed Designer</span>
+                  <h4>Pranshu Jha</h4>
+                  <span>Full Stack Developer</span>
                 </div>
               </div>
             </div>
@@ -291,108 +288,8 @@ const About = () => {
                   </div>
                 </div>
                 <div className="member-description">
-                  <h4>Herman C. Kennedy</h4>
-                  <span>Wed Designer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6">
-              <div className="team-member-two wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img src="assets/images/teams/team5.jpg" alt="Team Member" />
-                  <div className="social-style-two">
-                    <Link href="/contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-pinterest-p" />
-                    </Link>
-                  </div>
-                </div>
-                <div className="member-description">
-                  <h4>Nathan A. Browning</h4>
-                  <span>Business Consultant</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6">
-              <div className="team-member-two wow fadeInUp delay-0-4s">
-                <div className="image">
-                  <img src="assets/images/teams/team6.jpg" alt="Team Member" />
-                  <div className="social-style-two">
-                    <Link href="/contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-pinterest-p" />
-                    </Link>
-                  </div>
-                </div>
-                <div className="member-description">
-                  <h4>Carmine M. Allen</h4>
-                  <span>Senior Manager</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6">
-              <div className="team-member-two wow fadeInUp delay-0-6s">
-                <div className="image">
-                  <img src="assets/images/teams/team7.jpg" alt="Team Member" />
-                  <div className="social-style-two">
-                    <Link href="/contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-pinterest-p" />
-                    </Link>
-                  </div>
-                </div>
-                <div className="member-description">
-                  <h4>Rubin R. Nelligan</h4>
-                  <span>Wed Designer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6">
-              <div className="team-member-two wow fadeInUp delay-0-8s">
-                <div className="image">
-                  <img src="assets/images/teams/team8.jpg" alt="Team Member" />
-                  <div className="social-style-two">
-                    <Link href="/contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <Link href="/contact">
-                      <i className="fab fa-pinterest-p" />
-                    </Link>
-                  </div>
-                </div>
-                <div className="member-description">
-                  <h4>Jimmy T. Briley</h4>
-                  <span>Programmer</span>
+                  <h4>Abishek</h4>
+                  <span>Full Stack Developer</span>
                 </div>
               </div>
             </div>
@@ -401,14 +298,14 @@ const About = () => {
       </section>
       {/* Team Section End */}
       {/* Advertise Area Start */}
-      <section className="advertise-area pt-130 rpt-100 pb-90 rpb-60">
+      {/* <section className="advertise-area pt-130 rpt-100 pb-90 rpb-60">
         <div className="container">
           <Advertise />
         </div>
-      </section>
+      </section> */}
       {/* Advertise Area End */}
       {/* Why Learn Start */}
-      <section className="why-learn-area pb-120 rpb-100">
+      <section className="why-learn-area p-120 rpb-100">
         <div className="container">
           <div className="row align-items-center large-gap wow fadeInLeft delay-0-2s">
             <div className="col-lg-6">
@@ -418,11 +315,10 @@ const About = () => {
                   <h2>Exclusive Online Course Provide Categories</h2>
                 </div>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire, that they
-                  cannot foresee the pain and trouble that are bound to ensue
-                  and equal blame belongs
+                Rook Education brings you exclusive online courses across a spectrum of categories, 
+                ensuring a tailored learning experience. From in-depth programming languages to cutting-edge 
+                technologies like blockchain and full-stack development, our curated categories empower 
+                learners to specialize and thrive in their chosen fields.
                 </p>
                 <div className="why-learn-feature pt-30">
                   <div className="row">
@@ -436,14 +332,14 @@ const About = () => {
                         </div>
                         <h4>Expert Advisors</h4>
                         <p>
-                          Accutium doloremque lauda totarem aperiam eaque quaeo
-                          inventore veritatis quase
+                        Benefit from the guidance of our expert advisors, industry leaders 
+                        who bring real-world insights to elevate your learning experience.
                         </p>
-                        <Link href="/about">
+                        {/* <Link href="/about">
                           <a className="read-more color-two">
                             Read more <i className="fas fa-arrow-right" />
                           </a>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                     <div className="col-sm-6">
@@ -456,14 +352,14 @@ const About = () => {
                         </div>
                         <h4>Popular Courses</h4>
                         <p>
-                          Quis autem vel eureh enderit voluptate velit esse
-                          nihlestiae consuatur veillum dolore
+                        Explore our curated selection of popular courses, 
+                        tailored to meet the demands of the ever-evolving digital realm
                         </p>
-                        <Link href="/about">
+                        {/* <Link href="/about">
                           <a className="read-more color-two">
                             Read more <i className="fas fa-arrow-right" />
                           </a>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>

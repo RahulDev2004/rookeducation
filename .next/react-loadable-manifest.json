@@ -1,8 +1,40 @@
 {
-  "index.js -> ../src/components/Counter": {
-    "id": "index.js -> ../src/components/Counter",
+  "about.js -> ../src/components/Counter": {
+    "id": 6774,
     "files": [
-      "static/chunks/src_components_Counter_js.js"
+      "static/chunks/54.830acefadcfa2ee4.js"
+    ]
+  },
+  "become-instructor.js -> ../src/components/Counter": {
+    "id": 6774,
+    "files": [
+      "static/chunks/54.830acefadcfa2ee4.js"
+    ]
+  },
+  "gallery.js -> ../src/components/isotope/GalleryIsotope": {
+    "id": 152,
+    "files": [
+      "static/chunks/391.c7d6e123206c3589.js",
+      "static/chunks/152.b66ee06597d6baf0.js"
+    ]
+  },
+  "index.js -> ../src/components/Counter": {
+    "id": 6774,
+    "files": [
+      "static/chunks/54.830acefadcfa2ee4.js"
+    ]
+  },
+  "index2.js -> ../src/components/Counter": {
+    "id": 6774,
+    "files": [
+      "static/chunks/54.830acefadcfa2ee4.js"
+    ]
+  },
+  "index4.js -> ../src/components/isotope/Index1Isotope": {
+    "id": 8566,
+    "files": [
+      "static/chunks/391.c7d6e123206c3589.js",
+      "static/chunks/566.fb4c08f5acc7a378.js"
     ]
   }
 }

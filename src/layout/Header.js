@@ -45,12 +45,12 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     </a>
                   </Link>
                 </div>
-                <select name="select-languages" id="select-languages">
+                {/* <select name="select-languages" id="select-languages">
                   <option value="English">Eng</option>
                   <option value="Spanish">Spa</option>
                   <option value="Chinese">Chi</option>
                   <option value="Arabic">Ara</option>
-                </select>
+                </select> */}
               </div>
               <div className="nav-outer clearfix">
                 {/* Main Menu */}
@@ -93,7 +93,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </div>
               {/* Menu Button */}
               <div className="menu-btn-sidebar d-flex align-items-center">
-                <form onSubmit={(e) => e.preventDefault()} action="#">
+                {/* <form onSubmit={(e) => e.preventDefault()} action="#">
                   <input type="search" placeholder="Search" required="" />
                   <button>
                     <i className="fas fa-search" />
@@ -104,7 +104,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 </button>
                 <button>
                   <i className="far fa-user-circle" />
-                </button>
+                </button> */}
                 {/* menu sidbar */}
                 <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                   <button>
@@ -184,7 +184,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </div>
               {/* Menu Button */}
               <div className="menu-btn-sidebar d-flex align-items-center">
-                <div className="nav-search">
+                {/* <div className="nav-search">
                   <button className="fa fa-search" />
                   <form
                     onSubmit={(e) => e.preventDefault()}
@@ -217,7 +217,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     <span className="icon-bar" />
                   </button>
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
@@ -331,7 +331,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="menu-btns d-lg-flex d-none align-items-center">
               <div className="nice-select">
                 <span className="">English</span>
-                <ul className="list">
+                {/* <ul className="list">
                   <li data-value="English" className="option selected focus">
                     English
                   </li>
@@ -341,7 +341,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <li data-value="Arabic" className="option">
                     Arabic
                   </li>
-                </ul>
+                </ul> */}
               </div>
 
               <Link href="/contact">
@@ -377,12 +377,12 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     </a>
                   </Link>
                 </div>
-                <select name="select-languages" id="select-languages">
+                {/* <select name="select-languages" id="select-languages">
                   <option value="English">Eng</option>
                   <option value="Spanish">Spa</option>
                   <option value="Chinese">Chi</option>
                   <option value="Arabic">Ara</option>
-                </select>
+                </select> */}
               </div>
               <div className="nav-outer clearfix">
                 {/* Main Menu */}
@@ -425,7 +425,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </div>
               {/* Menu Button */}
               <div className="menu-btn-sidebar d-flex align-items-center">
-                <form onSubmit={(e) => e.preventDefault()} action="#">
+                {/* <form onSubmit={(e) => e.preventDefault()} action="#">
                   <input type="search" placeholder="Search" required="" />
                   <button>
                     <i className="fas fa-search" />
@@ -436,7 +436,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 </button>
                 <button>
                   <i className="far fa-user-circle" />
-                </button>
+                </button> */}
                 {/* menu sidbar */}
                 <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                   <button>
@@ -457,13 +457,13 @@ const Header1 = ({ navToggle, setNavToggle }) => (
   Menus = () => (
     <ul className="navigation clearfix d-none d-lg-flex">
       <li className="dropdown ">
-        <a href="#">home</a>
-        <ul>
+        <Link href="/">home</Link>
+        {/* <ul>
           <Home />
         </ul>
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
       <li>
         <Link href="/about">
@@ -471,31 +471,31 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </Link>
       </li>
       <li className="dropdown">
-        <a href="#">Courses</a>
-        <ul>
+        <Link href="/course-list">Courses</Link>
+        {/* <ul>
           <Courses />
         </ul>
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
       <li className="dropdown">
-        <a href="#">pages</a>
-        <ul>
+        <Link href="/contact">contact us</Link>
+        {/* <ul>
           <Pages />
         </ul>
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
       <li className="dropdown">
-        <a href="#">blog</a>
-        <ul>
+        <Link href="/blog">blog</Link>
+        {/* <ul>
           <Blog />
         </ul>
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
     </ul>
   ),
